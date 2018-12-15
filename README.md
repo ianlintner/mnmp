@@ -13,7 +13,7 @@ Mac versions change so fast and I try to stay with the curve and my main PHP tar
 
 I encourage you to use a docker container for mirroring production linux servers for testing before integrating into dev/QA and definetly before production. The goal of this is speed of development and primarly XDebug and traces. As native NGinx and PHP-FPM is still light years ahead of Docker on Mac due to file shared volume code. Which with Drupal is a big deal as you likely have 100s if not 1000s of php files.
 
-
+```
 
                      $$$$$$$$$$$$$$$$$$$$$$
                   $$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -88,3 +88,5 @@ $$$$$$   $$$$$                  $$$$$$
   $$$$$  $$$
    $$$$$$$$
     $$$$$$
+
+```
