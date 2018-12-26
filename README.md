@@ -1,6 +1,6 @@
 # The Lazy Mac PHP "Gibson Hacker" dev pack aka mnmp
 
-## THIS IS PRE-ALPHA AND DOES NOT WORK YET.
+## THIS IS PRE-ALPHA AND DOES NOT WORK YET DON'T USE IT :LOL: ^*^
 
 ## Software
 
@@ -11,7 +11,7 @@
 
 ###Optional
 
-* (Redis|Memcached|Solr|Elasticache)?
+* (Redis|Memcached|Solr|Elastisearch)?
 
 ## How
 **Less talk more code**
@@ -71,6 +71,10 @@ Mac versions change so fast and I try to stay with the curve and my main PHP tar
 
 ## Why
 I encourage you to use a docker container for mirroring production linux servers for testing before integrating into dev/QA and definetly before production. The goal of this is speed of development and primarly XDebug and traces. As native NGinx and PHP-FPM is still light years ahead of Docker on Mac due to file shared volume code. Which with Drupal is a big deal as you likely have 100s if not 1000s of php files.
+
+### Obligatory ASCII ART
+
+Dobbs-head
 
 ```
 
@@ -149,3 +153,4 @@ $$$$$$   $$$$$                  $$$$$$
     $$$$$$
 
 ```
++ICL
